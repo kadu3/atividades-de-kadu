@@ -7,7 +7,66 @@
 </head>
 <body>
     <script>
- 
+  //questao 1
+
+const jogadores67 = ["messi","cristiano","ronaldinho","maradona"];
+        console.log(jogadores67);
+        jogadores67.push("neymar");
+        console.log(jogadores67);
+        
+/*----------------------------------------------------*/
+
+//questao 2
+
+const jogadores1 = ["messi","cristiano","ronaldinho","maradona"];
+        console.log(jogadores1);
+        jogadores1.shift();
+        console.log(jogadores1);
+
+/*----------------------------------------------------*/
+
+//questao 3
+
+ const jogadores2 = ["messi","cristiano","ronaldinho","maradona"]
+        for (let i = 0; i < jogadores2.length; i++) {
+  console.log(jogadores2[i])
+}
+
+/*----------------------------------------------------*/
+
+//questao 9
+
+ const jogadores3 = ["messi","cristiano","ronaldinho","maradona"];
+       jogadores3.splice([1],[2]);
+       console.log(jogadores3)
+       
+/*----------------------------------------------------*/
+
+//questao 15
+
+    let jogador = {
+        nome:"neymar",
+        idade:33,
+        posicao:"atacante"
+
+        }
+jogador.idade = 34;
+console.log(jogador);
+console.log(Object.keys(jogador));
+console.log(Object.values(jogador));
+
+/*----------------------------------------------------*/
+
+//questao 11
+
+const jogadores5 = ["messi","cristiano","ronaldinho","maradona"];
+    serodagoj = jogadores5.map(jogadores5 =>
+    jogadores5.split('').reverse().join('')
+    );
+    console.log(serodagoj)
+
+/*-----------------------------------------------------*/
+
 // questao 4 
  
   const jogadores = ["MESSI","CRISTIANO","NEYMAR"];
@@ -53,6 +112,7 @@ let jogadores21 =  [
 
 const jogadorMaisDe10 = jogadores21.filter(jogadores21 => jogadores21.gols > 10 );
 console.log(jogadorMaisDe10)
+
     </script>
 </body>
 </html>
